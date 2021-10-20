@@ -8,8 +8,8 @@ import java.util.List;
 public interface BrankService {
     /**
      * 获取品牌信息
-     * @param brank_id
+     * @param brank_ids
      * @return
      */
-    List<BrankEntity> selectByBrankKey(Integer brank_id);
+    List<BrankEntity> selectByBrankKey(Integer brank_ids);
 }
